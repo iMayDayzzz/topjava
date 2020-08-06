@@ -9,7 +9,7 @@ import ru.javawebinar.topjava.model.User;
 import java.util.List;
 
 @RestController
-@RequestMapping("/admin/users")
+@RequestMapping("admin/users")
 public class AdminUIController extends AbstractUserController {
 
     @Override

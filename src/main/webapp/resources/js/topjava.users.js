@@ -1,7 +1,7 @@
 // $(document).ready(function () {
 $(function () {
     makeEditable({
-            ajaxUrl: "admin/users/",
+            ajaxUrl: "/topjava/admin/users/",
             datatableApi: $("#datatable").DataTable({
                 "paging": false,
                 "info": true,
